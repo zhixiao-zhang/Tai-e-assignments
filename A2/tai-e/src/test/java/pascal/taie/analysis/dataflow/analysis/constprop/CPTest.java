@@ -63,7 +63,15 @@ public class CPTest {
     }
 
     @Test
+    public void testBranchUndef() { testCP("BranchUndef"); }
+
+    @Test
     public void testInterprocedural() {
         testCP("Interprocedural");
+    }
+
+    @Test
+    public void testSwitch() {
+        testCP("Switch");
     }
 }

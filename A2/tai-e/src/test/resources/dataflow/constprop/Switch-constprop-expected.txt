@@ -1,0 +1,3 @@
+-------------------- <Switch: void <init>()> (constprop) --------------------
+-------------------- <Switch: int switch1(int,int)> (constprop) --------------------
+-------------------- <Switch: int switch2(int,int)> (constprop) --------------------

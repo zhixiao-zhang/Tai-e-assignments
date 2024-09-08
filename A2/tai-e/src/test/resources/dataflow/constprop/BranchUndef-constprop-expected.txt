@@ -1,0 +1,9 @@
+-------------------- <BranchUndef: void undefined1(boolean)> (constprop) --------------------
+[4@L6] x = undef; {%intconst0=0, b=NAC}
+[5@L5] goto 8; {%intconst0=0, b=NAC}
+
+-------------------- <BranchUndef: void undefined2(boolean)> (constprop) --------------------
+[0@L15] x = undef; {b=NAC}
+[1@L16] x = 20; {b=NAC, x=20}
+[2@L17] a = x; {a=20, b=NAC, x=20}
+[3@L17] return; {a=20, b=NAC, x=20}
